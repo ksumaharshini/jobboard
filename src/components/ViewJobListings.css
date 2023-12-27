@@ -1,0 +1,73 @@
+/* ViewJobListings.css */
+
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  max-width: 1500px; /* Limit the maximum width to improve readability */
+  margin: 0 auto; /* Center the container */
+  padding: 15px; /* Adjusted padding */
+  background-color: #f0f0f0; /* Light gray background */
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+h2 {
+  color: #2c3e50; /* Dark gray heading color */
+  margin-bottom: 10px; /* Add margin below heading */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; /* Remove default margin for the unordered list */
+}
+
+li {
+  margin-bottom: 20px; /* Adjusted gap between job listings */
+}
+
+strong {
+  font-weight: bold;
+  color: #e74c3c; /* Red strong text color */
+}
+
+button {
+  background-color: #4239eb;
+  color: #fff;
+  padding: 10px 15px; /* Reduced button padding */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+button:hover {
+  background-color: #498f17;
+}
+
+/* Search Bar Styles */
+input {
+  width: 70%;
+  margin-bottom: 10px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+/* Media Query for Improved Responsiveness */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 15px; /* Adjusted padding */
+  }
+
+  li {
+    margin-bottom: 15px; /* Adjusted gap between job listings */
+  }
+
+  button {
+    padding: 8px 12px; /* Further reduced button padding */
+  }
+}

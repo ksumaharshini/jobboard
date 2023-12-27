@@ -1,0 +1,57 @@
+/* ApplyRegistrationForm.css */
+
+.registration-form {
+  max-width: 1500px; /* Increase max-width for horizontal size */
+  margin: 40px auto; /* Increase margin for centering */
+  padding: 30px; /* Increase padding for more space */
+  border: 1px solid #ddd;
+  border-radius: 12px; /* Increase border-radius for rounded corners */
+  background-color: #ecf0f1;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  overflow-y: auto;
+  max-height: 600px; /* Increase max-height for vertical size */
+}
+
+label {
+  display: block;
+  margin-bottom: 12px; /* Increase margin for more space */
+  font-size: 18px; /* Increase font size for better readability */
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px; /* Increase padding for more comfortable input */
+  margin-bottom: 20px; /* Increase margin for more space */
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px 20px; /* Increase padding for larger buttons */
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .registration-form {
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

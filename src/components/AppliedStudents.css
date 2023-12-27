@@ -1,0 +1,47 @@
+/* AppliedStudents.css */
+
+/* Container style */
+div {
+    margin: 20px;
+  }
+  
+  /* Table style */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: floralwhite;
+  }
+  
+  /* Header row style */
+  thead tr {
+    background-color: #f33939;
+    color: #fff;
+  }
+  
+  /* Body row style */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Cell style */
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  /* Button style */
+  button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #9e1781;
+  }
+  
