@@ -1,0 +1,44 @@
+/* ViewAppliedStudents.css */
+
+.applied-students-container {
+    margin: 20px;
+  }
+  
+  .applied-students-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .applied-students-table th, .applied-students-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .applied-students-table th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Hover effect on table rows */
+  .applied-students-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Header styles */
+  h2 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  /* Responsive styles for small screens */
+  @media (max-width: 768px) {
+    .applied-students-table {
+      font-size: 14px;
+    }
+  
+    .applied-students-table th, .applied-students-table td {
+      padding: 8px;
+    }
+  }
+  
